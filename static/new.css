@@ -29,7 +29,8 @@
     background-color:#ededed ;
    
 }
-.dropdown-menu:hover>.dropdown-item{
-    
-   
+@media(max-width:550px){
+    #youvideo {
+width:300px;
+    }
 }
