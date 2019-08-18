@@ -37,6 +37,9 @@ width:300px;
     #pic{
         margin-left:100px;
     }
+    #clip{
+        font-size:10px;
+    }
 }
 .box {
     display: flex;
