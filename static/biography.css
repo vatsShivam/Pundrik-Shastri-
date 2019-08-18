@@ -50,7 +50,7 @@
 @media(min-width:1270px){
     #priya{
         height: 250px;
-        width:1085px;
+        width:1150px;
     }
     #para{
         margin-left:80px;
@@ -58,8 +58,3 @@
     }
     
 }
-#my_centered_buttons { 
-    display: flex;
-     justify-content: center;
-     }
-     
