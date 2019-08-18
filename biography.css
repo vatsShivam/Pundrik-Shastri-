@@ -1,20 +1,8 @@
-@media(max-width:400px){
-    #priya{
-        height:250px;
-        width:300px;
-        margin-left:-10px;
-    }
-    #para{
-        margin-left:5px;
-        margin-top:10px;
-    }
 
-}
-@media(min-width:400px){
+@media(max-width:500px){
     #priya{
-        height:250px;
-        width:300px;
-        margin-left:-10px;
+        height:150px;
+        width:400px;
     }
     #para{
         margin-left:15px;
@@ -25,7 +13,7 @@
 @media(min-width:500px){
     #priya{
         height:250px;
-        width:440px;
+        width:470px;
     }
     #para{
         margin-left:50px;
@@ -62,10 +50,10 @@
 @media(min-width:1270px){
     #priya{
         height: 250px;
-        width:1100px;
+        width:1085px;
     }
     #para{
-        margin-left:50px;
+        margin-left:80px;
         margin-top:30px;
     }
     
