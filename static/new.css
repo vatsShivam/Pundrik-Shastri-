@@ -41,7 +41,7 @@ width:300px;
         font-size:10px;
     }
     #but{
-        margin-right:10px;
+        margin-left:-10px;
     }
 }
 .box {
