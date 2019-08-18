@@ -29,11 +29,7 @@
     background-color:#ededed ;
    
 }
-@media(max-width:400px){
-    #clip{
-        font-size:12px;
-    }
-}
+
 @media(max-width:550px){
     #youvideo {
 width:300px;
