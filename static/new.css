@@ -40,6 +40,9 @@ width:300px;
     #clip{
         font-size:10px;
     }
+    #but{
+        margin-right:10px;
+    }
 }
 .box {
     display: flex;
