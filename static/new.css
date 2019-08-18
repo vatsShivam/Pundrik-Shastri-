@@ -48,4 +48,10 @@ width:300px;
     height: 100px;
   }
         
+@media(max-width:350px){
+
+    .box div{
+        margin-left:5px;
+    }
+}
 
