@@ -1,7 +1,7 @@
 @media(max-width:400px){
     #priya{
-        height:150px;
-        width:350px;
+        height:250px;
+        width:300px;
         margin-left:-10px;
     }
     #para{
@@ -12,8 +12,8 @@
 }
 @media(min-width:400px){
     #priya{
-        height:150px;
-        width:330px;
+        height:250px;
+        width:300px;
         margin-left:-10px;
     }
     #para{
