@@ -7,7 +7,9 @@
     margin-left:70px;
 }
 
-
+#image{
+    margin-left:50px;
+}
 }
 @media(max-width:700px){
     #new{
@@ -15,20 +17,6 @@
         margin-left:30px;
     }
 
-}
-@media(min-width:1240px){
-    #pundr{
-        margin-top: 210px;
-    }
-    #youvideo { 
-        margin-left:100px;
-        margin-bottom: 30px;
-        
-    }
-    #clip {
-    margin-left:200px;
-    
-    }
 }
 
 .dropdown:hover>.dropdown-menu{
@@ -39,21 +27,41 @@
    
 }
 
-@media(max-width:550px){
+@media(max-width:650px){
     #youvideo {
-               width:300px;
-               margin-left:30px;
-              }
+width:300px;
+margin-left:30px;
+
+    }
     #pic{
         margin-left:100px;
-        }
+    }
     #clip{
-       font-size:22px;
-       margin-left:70px;
-         }
-            
+        font-size:22px;
+        margin-left:70px;
+    }
     
 }
+@media(min-width:650px){
+    #youvideo{
+        margin-left:100px;
+        width:500px;
+    }
+    #clip{
+        margin-left: 130px;
+    }
+}
+@media(min-width:1240px){
+    #pundr{
+        margin-top: 210px;
+    }
+   
+    #clip {
+    margin-left:120px;
+    
+    }
+}
+
 .box {
     display: flex;
     align-items: center;
