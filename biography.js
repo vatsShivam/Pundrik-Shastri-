@@ -1,9 +1,9 @@
 
 
 var images=[
-    'gurudev.JPG',
-    'krishna.jpg',
-    'krishna1.jpg'
+    'satyam.jpg',
+    'shiva1.jpg',
+    'shivam.jpg'
 ];
 var time=3000;
 
