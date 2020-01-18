@@ -1,5 +1,5 @@
 
-var i=0;
+
 var images=[
     'gurudev.JPG',
     'krishna.jpg',
