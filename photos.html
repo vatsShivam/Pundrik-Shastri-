@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Makaut</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="./static/new.css">
+    <style>
+        html {
+            font-family: sans-serif;
+        }
+
+
+
+        article {
+            border-radius: 5px;
+            margin: 10px;
+            background: white;
+            transition: all 0.3s ease;
+            margin: 30px;
+        }
+
+        section {
+            display: flex;
+            margin-left: 100px;
+            margin-right: 100PX;
+            margin-bottom: 30px;
+            margin-top: 20px;
+
+
+
+        }
+
+        article:hover {
+            transform: scale(1.2);
+            z-index: 9999;
+            box-shadow: 0 0 1px 2px black;
+            -webkit-box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+
+            -moz-box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.75);
+            box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        }
+
+        .current-image {
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        .close-btn {
+            flex-grow: initial;
+            position: absolute;
+            right: 15px;
+            margin-top: 15px;
+            background: none;
+            border: none;
+            border-radius: 15px;
+            z-index: 9999;
+        }
+
+        .close-btn:hover {
+            background-color: gray;
+        }
+
+        @media only screen and (max-width: 800px) {
+            section {
+                flex-direction: column;
+                margin: 0px;
+            }
+
+            article {
+                margin: 20px;
+            }
+
+            .current-image {
+                padding: 20px;
+                flex-grow: 1;
+                margin-left: 20px;
+            }
+        }
+       
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar  navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Pundrik Shastri</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav navbar-right" style="padding-right:20px;padding-top:20px;padding-bottom:20px">
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" style="margin-right:30px"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> RamKatha </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="ramkatha.html">About Ramkatha</a>
+                        <a class="dropdown-item" href="#">Katha Quotes</a>
+                        <a class="dropdown-item" href="#">Full Katha List</a>
+                        <a class="dropdown-item" href="#">Upcoming Kathas</a>
+                        <a class="dropdown-item" href="#">Katha Chopais</a>
+                    </div>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" style="margin-right:30px"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Gallery</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="gallery.html">Photos</a>
+                        <a class="dropdown-item" href="#">Media</a>
+                        <a class="dropdown-item" href="#">Katha Booklet</a>
+                    </div>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" style="margin-right:30px"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Video</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Katha Videos</a>
+                        <a class="dropdown-item" href="#">Guru Purnima</a>
+                        <a class="dropdown-item" href="#">Janmastmi</a>
+                        <a class="dropdown-item" href="#">Hanumana Jayanti</a>
+                    </div>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" style="margin-right:30px"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Contact Us</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Katha Videos and Audios</a>
+                        <a class="dropdown-item" href="contact.html">General Enquiry</a>
+                    </div>
+                </li>
+        </div>
+    </nav>
+    <div class="container-fluid" style="height:100px;background-color:black;margin-top:-18px">
+        <div class="col-sm-8 offset-sm-2">
+            <h4 id="test" style="color:white;margin-top:35px">Photos</h4>
+        </div>
+    </div>
+    <div class="container">
+        <div class="d-flex" id="show">
+            <article class="current-image"></article>
+            <button id="some" class="close-btn"><img src="cross.png" height="25" width="25"></button>
+        </div>
+    </div>
+
+    <div class="container-fluid" >
+        <section id="hide">
+            <article id="shivami" style="padding:0px">
+                <img src="shivam.jpg" alt="Lights" style="width:100%;height:100%;border-radius: 5px;">
+            </article>
+
+            <article>
+                <img src="shivam.jpg" alt="Lights" style="width:100%;height:100%;border-radius: 5px;">
+            </article>
+
+            <article>
+
+                <img src="shivam.jpg" alt="Lights" style="width:100%;height:100%;border-radius: 5px;">
+
+            </article>
+        </sectionid="hide">
+        <section>
+    </div>
+
+    <script>
+        var lol = document.getElementById('shivami');
+        lol.addEventListener('click', shivam1);
+        var k = document.getElementById('hide');
+        var show = document.getElementById("show").querySelector('.current-image');
+        var Some = document.getElementById("some");
+        show.style.display = "none";
+        Some.style.display = "none";
+        var panel = document.createElement('div');
+        panel.setAttribute('class', 'msgBox');
+        show.appendChild(panel);
+        var closeBtn = document.createElement('img');
+        closeBtn.style.width = "100%";
+        var crossi = document.createElement('img');
+        closeBtn.setAttribute('src', 'shivam.jpg');
+
+        panel.appendChild(closeBtn);
+        Some.addEventListener("click", satyam1);
+
+
+        function shivam1() {
+            show.style.display = "inherit";
+            k.style.opacity = "0.2";
+            some.style.display = "inherit";
+            k.setAttribute('class','shivu');
+        }
+        function satyam1() {
+            k.style.opacity = "1";
+            show.style.display = "none";
+            some.style.display = "none"
+        }
+
+
+    </script>
+</body>

@@ -15,6 +15,55 @@
 <link rel="stylesheet" href="biography.css">
 <script src="biography.js"></script>
 <link rel="stylesheet" href="./static/new.css">
+<style>
+  html {
+    font-family: sans-serif;
+  }
+  
+  
+  
+  article {
+    border-radius: 5px;
+    margin: 10px;
+    background: white;
+    transition: all 0.3s ease;
+    margin:30px;
+  }
+  
+  section {
+   display: flex;
+   margin-left: 100px;
+   margin-right: 100PX;
+   margin-bottom: 30px;
+   margin-top: 20px;
+   
+   
+   
+  }
+  article:hover {
+    transform: scale(1.2);
+    z-index: 9999;
+    box-shadow: 0 0 1px 2px black;
+    -webkit-box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.75);
+  
+  
+  -moz-box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.75);
+   box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+  
+  @media only screen and (max-width: 800px) {
+   section{
+    flex-direction: column;
+    margin:0px;
+   }
+   article{
+       margin: 20px;
+   }
+  }
+  .w3-lobster {
+    font-family: "Lobster", serif;
+  }
+  </style>
 
 </head>
 <body>
@@ -66,70 +115,83 @@
     </div>
   </div>
   <div class="container-fluid">
-      <div class="row" style="margin-top:50px">
-      <div class="col-sm-2 offset-sm-2">
-          <a href="image.html">
-        <img src="shivam.jpg" alt="..." class="img-thumbnail"style="height:100px;width:200px">
-          </a>
-        <a style="color:black;margin-top:6px;display:block"href="image.html">Bapu Gallery</a>
-      </div>
-      <div class="col-sm-2 ">
-            <img src="shivam.jpg" alt="..." class="img-thumbnail"style="height:100px;width:200px">
-            <a style="color:black;margin-top:6px;display:block"href="img.html">Temple in Banaras</a>
-          </div>
-     <div class="col-sm-2">
-       <a href="devoted.html">
-                <img src="shivam.jpg" alt="..." class="img-thumbnail"style="height:100px;width:200px">
-       </a>
-                <a style="color:black;margin-top:6px;display:block"href="devoted.html">Devoted Person</a>
-              </div>
-             
-     <div class="col-sm-2">
-               <img src="shivam.jpg" alt="..." class="img-thumbnail"style="height:100px;width:200px">
-               <a style="color:black;margin-top:6px;display:block"href="img.html">Hanuman Jayanti</a>
-            </div>
-                             
-      </div>
-      <div class="row" style="margin-top:50px">
-            <div class="col-sm-2 offset-sm-2">
-              <img src="shivam.jpg" alt="..." class="img-thumbnail"style="height:100px;width:200px">
-              <a style="color:black;margin-top:6px;display:block"href="img.html">Krihna Katha</a>
-            </div>
-            <div class="col-sm-2 ">
-                  <img src="shivam.jpg" alt="..." class="img-thumbnail"style="height:100px;width:200px">
-                  <a style="color:black;margin-top:6px;display:block"href="img.html">Bapu Gallery</a>
-                </div>
-           <div class="col-sm-2">
-                      <img src="shivam.jpg" alt="..." class="img-thumbnail"style="height:100px;width:200px">
-                      <a style="color:black;margin-top:6px;display:block"href="img.html">Bapu Gallery</a>
-                    </div>
-                   
-           <div class="col-sm-2">
-                     <img src="shivam.jpg" alt="..." class="img-thumbnail"style="height:100px;width:200px">
-                     <a style="color:black;margin-top:6px;display:block"href="img.html">Bapu Gallery</a>
-                  </div>
-                                   
-            </div>
-            <div class="row" style="margin-top:50px">
-                    <div class="col-sm-2 offset-sm-2">
-                      <img src="shivam.jpg" alt="..." class="img-thumbnail"style="height:100px;width:200px">
-                      <a style="color:black;margin-top:6px;display:block"href="img.html">Bapu Gallery</a>
-                    </div>
-                    <div class="col-sm-2 ">
-                          <img src="shivam.jpg" alt="..." class="img-thumbnail"style="height:100px;width:200px">
-                          <a style="color:black;margin-top:6px;display:block"href="img.html">Bapu Gallery</a>
-                        </div>
-                   <div class="col-sm-2">
-                              <img src="shivam.jpg" alt="..." class="img-thumbnail"style="height:100px;width:200px">
-                              <a style="color:black;margin-top:6px;display:block"href="img.html">Bapu Gallery</a>
-                            </div>
-                           
-                   <div class="col-sm-2">
-                             <img src="shivam.jpg" alt="..." class="img-thumbnail"style="height:100px;width:200px">
-                             <a style="color:black;margin-top:6px;display:block"href="img.html">Bapu Gallery</a>
-                          </div>
-                                           
-                    </div>
+      
+    <section>
+      <article id="shivam"style="padding:0px">
+       <a style="text-decoration: none;color:black;font-size: 20px;"href="photos.html"> <img src="shivam.jpg" alt="Lights" style="width:100%;height:100%;border-radius: 5px;">Maharj Photo</a>
+      </article>
+
+      <article>
+        <img src="shivam.jpg" alt="Lights" style="width:100%;height:100%;border-radius: 5px;">
+      </article>
+
+      <article>
+     
+        <img src="shivam.jpg" alt="Lights" style="width:100%;height:100%;border-radius: 5px;">
+     
+      </article>
+
+      <article>
+     
+        <img src="shivam.jpg" alt="Lights" style="width:100%;height:100%;border-radius: 5px;">
+     
+      </article>
+
+      <article>
+        <img src="shivam.jpg" alt="Lights" style="width:100%;height:100%;border-radius: 5px;">
+      </article>
+
+      <article>
+     
+        <img src="shivam.jpg" alt="Lights" style="width:100%;height:100%;border-radius: 5px;">
+     
+      </article>
+
+      <article>
+     
+        <img src="shivam.jpg" alt="Lights" style="width:100%;height:100%;border-radius: 5px;">
+     
+      </article>
+      </section>
+      <section>
+        <article id="shivam"style="padding:0px">
+         <a style="text-decoration: none;color:black;font-size: 20px;"href="manas.html"> <img src="shivam.jpg" alt="Lights" style="width:100%;height:100%;border-radius: 5px;">Banaras photo</a>
+        </article>
+  
+        <article>
+          <img src="shivam.jpg" alt="Lights" style="width:100%;height:100%;border-radius: 5px;">
+        </article>
+  
+        <article>
+       
+          <img src="shivam.jpg" alt="Lights" style="width:100%;height:100%;border-radius: 5px;">
+       
+        </article>
+  
+        <article>
+       
+          <img src="shivam.jpg" alt="Lights" style="width:100%;height:100%;border-radius: 5px;">
+       
+        </article>
+  
+        <article>
+          <img src="shivam.jpg" alt="Lights" style="width:100%;height:100%;border-radius: 5px;">
+        </article>
+  
+        <article>
+       
+          <img src="shivam.jpg" alt="Lights" style="width:100%;height:100%;border-radius: 5px;">
+       
+        </article>
+  
+        <article>
+       
+          <img src="shivam.jpg" alt="Lights" style="width:100%;height:100%;border-radius: 5px;">
+       
+        </article>
+        </section>
+      
+
   </div>
   
 <div class="container-fluid"style="background-color:#17202A;height:auto">
