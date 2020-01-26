@@ -1,0 +1,82 @@
+
+@media(min-width:990px){
+#radhe {
+    margin-left: 500px;
+}
+#archive{
+    margin-left:70px;
+}
+
+#image{
+    margin-left:70px;
+}
+}
+@media(max-width:700px){
+    #new{
+        
+        margin-left:30px;
+    }
+
+}
+
+.dropdown:hover>.dropdown-menu{
+    display:block;
+    border-radius:10px;
+    background-size: cover;
+    background-color:#ededed ;
+   
+}
+
+@media(max-width:650px){
+    #youvideo {
+width:280px;
+margin-left:20px;
+
+    }
+    #pic{
+        margin-left:100px;
+    }
+    #clip{
+        font-size:22px;
+        margin-left:50px;
+    }
+    
+}
+@media(min-width:650px){
+    #youvideo{
+        margin-left:100px;
+        width:500px;
+    }
+    #clip{
+        margin-left: 130px;
+    }
+}
+@media(min-width:1240px){
+    #pundr{
+        margin-top: 210px;
+    }
+   
+    #clip {
+    margin-left:120px;
+    
+    }
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box div {
+    width: 100px;
+    height: 100px;
+  }
+        
+@media(max-width:450px){
+
+    .box div{
+        margin-left:5px;
+    }
+}
+
